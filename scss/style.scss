@@ -1,0 +1,646 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+.nav-bar{
+display: flex;
+text-align: center;
+justify-content: space-between;
+align-items: center;
+background-color: #181818;
+
+    ul{
+        display: flex;
+        list-style: none;
+    }
+        li{
+            display: flex;
+        }
+
+            a{
+                text-decoration: none;
+                color: #ef4444;
+                padding: 14px 16px;
+
+
+        }
+            img{
+                width: 60px;
+                height: auto;
+                margin-left: 20px;
+            }
+    }
+
+.contenedor-flex{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 1.25rem;
+background-color: #f7f7f7;
+    .div-img8{
+        flex-basis: 40%;
+        padding: 20px;
+        background-color: #f7f7f7;
+    }
+        img{
+            max-width: 100%;
+            max-height: auto;
+            display: block;
+        }
+    .detalles-circuitos{
+        flex-basis: 60%;
+        padding: 20px;
+        text-align: left;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+        .p{
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #181818(0, 0, 0, 0.3);
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f7f7f7;
+        }
+
+}
+
+.titulo-index1{
+width: 100%;
+height: 52.5rem;
+background-image: url("../assets/img/todoslospilotosf12023");
+background-repeat: no-repeat;
+background-position: center;
+flex-wrap: wrap;
+background-color: #333;
+}
+
+
+.container-card{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10;
+        background-image: url(../assets/img/fondoparafondopilotos1.jpg);
+        background-repeat: repeat;
+        color: #ffffff;
+}
+        .img{
+            border-radius: 45%;
+            display: grid;
+            place-items: center;
+            }
+        .card{
+            margin: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;gap: 1rem
+        }
+        .card img{
+            max-width: 80%;
+            max-height: 30%;
+            margin: 100 auto;
+            border-radius: 47%;
+        }
+
+.imagenes-indexp{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    gap: .625rem;
+    margin-top: 4.25rem;
+    align-items: center;
+    padding: 15px;
+    h3 a{
+        list-style: none;
+        text-decoration: none;
+        color: #181818;
+    }
+    img{
+        border-radius: 10%;
+        height: 300px;
+        width: 400px;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+        .imagenes-indexp img:hover{
+        transform: scale(1.1);
+    }
+    .boton-enlace{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #181818;
+        color: #ef4444;
+        text-decoration: none;
+        border: 1px solid #181818;
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+    .boton-enlace:hover{
+        background-color: #ef4444;
+        color: #181818;
+    }
+
+}
+
+.sobre-f1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    justify-content: space-between;
+    background-color: #ccc;
+    .img-2 img{
+        width: 1024px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .img-3 img{
+        width: 1024px;
+        margin-top: 15px;
+    }
+    .texto-1{
+        margin-top: 2px;
+    }
+    .texto-2{
+        margin-top: 2px;
+    }
+    .texto-3{
+        margin-top: 2px;
+    }
+        .img-1, .img-2, .img-3{
+            flex-basis: calc(33.33% - 20px);
+            margin-right: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 30px;
+            box-shadow: 5px 5px 10px #181818(0, 0, 0, 0.2);
+        }
+        .texto-1, .texto-2, .texto-3{
+            flex-basis: calc(66.66% - 20px);
+            padding: 20px;
+            background-color: #ccc;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.6;
+            color: #333;
+            text-align: center;
+        }
+        .img-1 img, .img-2 img, .img-3 img {
+            width: 100%;
+            height: auto;
+            border-radius: 4%;
+            }
+            .img-1 img:hover, .img-2 img:hover, .img-3 img:hover {
+                border: 2px solid #EF4444; 
+            }
+}
+
+.mi-formulario{
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #2524243d;
+    padding-bottom: 20px;
+    border: 1px solid #333;
+
+    .h1-form{
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .mi-formulario textarea{
+        margin-top: 1px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            position: relative;
+            resize: none;  
+            margin-bottom: 10px;
+        }
+        
+        
+        button[type="reset"],
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #18181B;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        
+        
+        button[type="submit"] {
+            background-color: #EF4444;
+        }
+        
+        
+        input[type="checkbox"] {
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        
+}
+.h1-form{
+    text-align: center;
+    margin-top: 10px;  
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: #181818;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    bottom: 0;
+    position: relative;
+    .footer-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .social-iconos{
+        display: flex;
+        gap: 10px;
+    }
+    a{
+        text-decoration: none;
+        margin: 7px;
+    }
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: transform 0.2 ease-in-out;
+    }
+    .social-iconos img:hover{
+        transform: scale(1.2);
+    }
+    .footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.containerc{
+    width: 100%;
+    }
+    .col-md-7{
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    }
+
+
+    .containerc{
+        margin-top: 30px;
+        background-color: #EF4444;
+        border: 1px solid #EF4444;
+        width: 100%;
+        }
+
+        .r32 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+
+        @media (max-width: 1024px){
+        .titulo-indexh1{
+            background-position: center;
+        }
+            .footer{
+            width: 100%;
+          }
+          .nav-bar{
+          width: 100%;
+          }
+          .imagenes-indexp img{
+            border-radius: 10%;
+            height: 250px;
+          width: 300px;
+          object-fit: cover;
+          transition: transform 0.3s; 
+          }
+          
+          .imagenes-indexp img:hover{
+          transform: scale(1.1);
+          
+          }
+          
+          .sobre-f1{
+          padding: 10px;
+          }
+          .sobre-f1 .img-1{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          }
+          .sobre-f1 .img-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            }
+            .sobre-f1 .img-3{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              }
+          
+          }
+          
+          @media (max-width: 768px){
+          
+          .contenedor-flex .div-img8{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          }
+          
+          .contenedor-flex{
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          }
+          .footer{
+            width: 100%;
+          }
+          
+          .nav-bar{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          }
+          
+          .nav-bar ul {
+                  flex-direction: column; 
+                  padding-left: 10px;
+                  padding-top: 5px;
+                
+                }
+          .nav-bar li {
+                    text-align: center; 
+                    margin-bottom: 10px; 
+                  
+                  }
+          .nav-bar ul {
+          align-items: center;
+          }
+          .detalles-circuitos{
+          align-items: right;
+          display: flex
+          }
+          .footer{
+            width: 100%;
+          }
+          
+          .nav-bar{
+          width: 100%;
+          }
+          .imagenes-indexp{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
+          }
+          
+          .imagenes-indexp img{
+            border-radius: 10%;
+            height: 150px;
+          width: 200px;
+          object-fit: cover;
+          transition: transform 0.3s; 
+          }
+          
+          .imagenes-indexp img:hover{
+          transform: scale(1.1);
+          
+          }
+          /* sobref1 */
+          .sobre-f1{
+            display: grid;
+            grid-template-columns: 1fr ;
+            margin-top: 15px;
+            justify-content: space-between;
+            background-color: #ccc;
+            }
+          }
+          
+          /* campeoantos del mundo */
+          .containerc{
+          max-width: 768px;
+          }
+          .containerc img{
+          max-width: 300px;
+          }
+          
+          @media (max-width:425px){
+            .titulo-indexh1{
+              width: auto;
+              height: auto;
+              background-image: url("../assets/img/todoslospilotosf12023");
+              background-repeat: no-repeat;
+              background-position: center;
+              flex-wrap: wrap;
+              }
+              
+              
+              
+              .container-card{
+              display: grid;
+              width: 100%;
+              grid-template-columns: 1fr;
+              grid-template-rows: 20;
+              background-image: url(../assets/img/fondoparafondopilotos1.jpg);
+              
+              background-repeat: repeat;
+              
+              
+              
+              
+              
+              color: #ccc;
+              
+              
+              
+              
+              }
+              
+              .container-card img{
+              border-radius: 45%;
+              display: grid;
+              place-items: center;
+              
+              }
+              
+              .card{
+              margin: 10px;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;gap: 1rem
+              }
+              
+              .card img {
+              max-width: 80%;
+              max-height: 30%;
+              margin: 100 auto;
+              border-radius: 47%;
+              }
+            
+    
+            .footer{
+              width: 100%;
+            }
+        
+            .imagenes-indexp{
+            display: grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: auto;
+            }
+            
+            .imagenes-indexp img{
+                border-radius: 10%;
+                height: 150px;
+            width: 200px;
+            object-fit: cover;
+            transition: transform 0.3s; 
+            }
+            
+            .imagenes-indexp img:hover{
+            transform: scale(1.1);
+            
+            }
+          
+            h3 a{
+                list-style: none;
+                text-decoration: none;
+                color: #18181B;
+              max-width: 300px;
+              max-height: 60px;
+              }
+          
+          
+              /* Contacto aca p abajo */
+            .mi-formulario {
+                width: 425px;
+                height: 400px;
+                margin: 0 auto;
+                font-family: Arial, sans-serif;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                background-color: #2524243d;
+                padding-bottom: 20px;
+              border: 1px solid #333;
+              }
+          
+              .h1-form{
+                text-align: center;
+                margin-top: 10px;  
+            padding-bottom: 20px;
+              }
+          
+          .col-md-5{
+          padding-left: 74px;
+          }
+          
+          }
+          
+          @media (max-width:375px){
+            .col-md-5{
+              padding-left: 49px;
+              }
+            
+            .footer{
+              width: 375px;
+            }
+            .mi-formulario {
+              width: 375px;
+              height: 425px;
+              margin: 0 auto;
+              font-family: Arial, sans-serif;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-top: 20px;
+              background-color: #2524243d;
+              padding-bottom: 20px;
+            border: 1px solid #333;
+            }
+          
+          
+          }
+          
+          @media (max-width: 320px) {
+            .col-md-5{
+              padding-left: 20px;
+              }
+          
+          
+            .footer{
+              width: 320px;
+            }
+            .mi-formulario {
+              width: 320px;
+              height: 300px;
+              margin: 0 auto;
+              font-family: Arial, sans-serif;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-top: 20px;
+              background-color: #2524243d;
+              padding-bottom: 20px;
+            border: 1px solid #333;
+            .col-md-5{
+              padding-left: 21px;
+              } 
+          }
+          }
+          .html-campeonatos{
+          background-color: #EF4444;
+          }
+          
+          
+          body{
+            margin: 0;
+            padding: 0;
+          }
