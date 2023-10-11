@@ -1,0 +1,35 @@
+.contenedor-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.25rem;
+    background-color: #f7f7f7;
+    .div-img8{
+        flex-basis: 40%;
+        padding: 20px;
+        background-color: #f7f7f7;
+    }
+        img{
+            max-width: 100%;
+            max-height: auto;
+            display: block;
+        }
+    .detalles-circuitos{
+        flex-basis: 60%;
+        padding: 20px;
+        text-align: left;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+        .p{
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #181818(0, 0, 0, 0.3);
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f7f7f7;
+        }
+
+}

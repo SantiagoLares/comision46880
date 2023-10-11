@@ -1,0 +1,68 @@
+.mi-formulario{
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #2524243d;
+    padding-bottom: 20px;
+    border: 1px solid #333;
+
+    .h1-form{
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+        .mi-formulario textarea{
+            margin-top: 1px;
+            }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+            input[type="text"],
+            input[type="email"],
+            select,
+            textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                position: relative;
+                resize: none;  
+                margin-bottom: 10px;
+        }
+        
+        
+            button[type="reset"],
+            button[type="submit"] {
+                padding: 10px 20px;
+                background-color: #18181B;
+                color: #FFFFFF;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-right: 10px;
+        }
+        
+        
+        button[type="submit"] {
+            background-color: #EF4444;
+        }
+        
+        
+        input[type="checkbox"] {
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        
+}
+    .h1-form{
+        text-align: center;
+        margin-top: 10px;  
+        padding-bottom: 10px;
+}
