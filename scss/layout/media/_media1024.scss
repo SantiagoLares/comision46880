@@ -1,0 +1,44 @@
+@media (max-width: 1024px){
+    .titulo-indexh1{
+        background-position: center;
+    }
+    .footer{
+        width: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    .imagenes-indexp img{
+        border-radius: 10%;
+        height: 250px;
+        width: 300px;
+        object-fit: cover;
+        transition: transform 0.3s; 
+    }
+    
+    .imagenes-indexp img:hover{
+        transform: scale(1.1);
+    
+    }
+    
+    .sobre-f1{
+        padding: 10px;
+    }
+    .sobre-f1 .img-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .sobre-f1 .img-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+        .sobre-f1 .img-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+    
+    }
+    

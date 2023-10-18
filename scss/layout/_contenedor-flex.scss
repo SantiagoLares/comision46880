@@ -1,9 +1,7 @@
 .contenedor-flex{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 1.25rem;
-    background-color: #f7f7f7;
+    @include flex(row,none,none,center,none)
+    margin : 1.25rem;
+    background-color: #f7f7f7 ;
     .div-img8{
         flex-basis: 40%;
         padding: 20px;

@@ -29,7 +29,10 @@ body {
 .contenedor-flex {
   display: flex;
   flex-direction: row;
+  flex-wrap: none;
+  justify-content: none;
   align-items: center;
+  gap: none;
   margin: 1.25rem;
   background-color: #f7f7f7; }
   .contenedor-flex .div-img8 {
@@ -205,8 +208,11 @@ body {
 .sobre-f1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 15px;
+  grid-template-rows: none;
   justify-content: space-between;
+  align-content: center;
+  gap: none;
+  margin-top: 15px;
   background-color: #ccc; }
   .sobre-f1 .img-2 img {
     width: 1024px;

@@ -1,0 +1,112 @@
+@media (max-width:425px){
+    .titulo-indexh1{
+        width: auto;
+        height: auto;
+        background-image: url("../assets/img/todoslospilotosf12023");
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-wrap: wrap;
+        }
+        
+        
+        
+    .container-card{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20;
+        background-image: url(../assets/img/fondoparafondopilotos1.jpg);
+        
+        background-repeat: repeat;
+        
+        
+        
+        
+        
+        color: #ccc;
+        
+        
+        
+        
+        }
+        
+    .container-card img{
+        border-radius: 45%;
+        display: grid;
+        place-items: center;
+        
+        }
+        
+    .card{
+        margin: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;gap: 1rem
+        }
+        
+    .card img {
+        max-width: 80%;
+        max-height: 30%;
+        margin: 100 auto;
+        border-radius: 47%;
+        }
+        
+
+        .footer{
+        width: 100%;
+        }
+    
+    .imagenes-indexp{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        }
+        
+    .imagenes-indexp img{
+        border-radius: 10%;
+        height: 150px;
+        width: 200px;
+        object-fit: cover;
+        transition: transform 0.3s; 
+        }
+        
+        .imagenes-indexp img:hover{
+        transform: scale(1.1);
+        
+        }
+    
+        h3 a{
+            list-style: none;
+            text-decoration: none;
+            color: #18181B;
+        max-width: 300px;
+        max-height: 60px;
+        }
+    
+    
+          /* Contacto aca p abajo */
+        .mi-formulario {
+            width: 425px;
+            height: 400px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            background-color: #2524243d;
+            padding-bottom: 20px;
+            border: 1px solid #333;
+            }
+    
+        .h1-form{
+            text-align: center;
+            margin-top: 10px;  
+            padding-bottom: 20px;
+        }
+    
+    .col-md-5{
+    padding-left: 74px;
+    }
+    
+    }
