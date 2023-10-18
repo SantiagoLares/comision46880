@@ -1,0 +1,1 @@
+Este sitio esta hecha para los amantes de la f1 y tambien para aquellos que no estan dentro de este mundo aun, utilizando html5, css, scss y bootstrap se llevo a cabo el sitio web
