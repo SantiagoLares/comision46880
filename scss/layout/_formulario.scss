@@ -2,7 +2,7 @@
     width: 550px;
     height: 400px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -34,7 +34,8 @@
                 position: relative;
                 resize: none;  
                 margin-bottom: 10px;
-        }
+                font-family: sans-serif
+            }
         
         
             button[type="reset"],
